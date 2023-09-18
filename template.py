@@ -10,7 +10,7 @@ project_name = 'MLOpsProject'
 
 # create a list of folders to be created
 list_of_files = [
-    ".github/workflows/.gitkeep",
+    ".github/workflows/.gitkeep", # File related to github actions
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
