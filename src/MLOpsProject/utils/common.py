@@ -5,11 +5,17 @@ from MLOpsProject import logger
 import json
 import joblib
 from ensure import ensure_annotations
-from box import ConfigBox
+from box import ConfigBox 
+# Box is a subclass of dict which overrides some base functionality 
+# to make sure everything stored in the dict can be accessed as an attribute or key value.
+# Generaly used for configuration files
 from pathlib import Path
 from typing import Any
 
-@ensure_annotations # decorator for type checking
+
+# @ensure_annotations is a decorator for type checking, it will make sure that the 
+# declared types in the functions are the same as the ones in the function body
+@ensure_annotations 
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     try:
         with open(path_to_yaml, "r") as yaml_file:

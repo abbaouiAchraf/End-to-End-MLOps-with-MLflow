@@ -13,15 +13,15 @@ list_of_files = [
     ".github/workflows/.gitkeep", # File related to github actions
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
-    f"src/{project_name}/utils/__init__.py",
-    f"src/{project_name}/utils/common.py",
+    f"src/{project_name}/utils/__init__.py", 
+    f"src/{project_name}/utils/common.py", # utility functions
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/entity/config_entity.py",
     f"src/{project_name}/constants/__init__.py",
-    "config/config.yaml",
+    "config/config.yaml", # YAML is a human-readable data serialization language that is often used for writing configuration files.
     "params.yaml",
     "schema.yaml",
     "main.py",
@@ -29,7 +29,7 @@ list_of_files = [
     "Dockerfile",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb",
+    "research/trials.ipynb", # notebook for trials and experiments
     "templates/index.html",
 ]
 
