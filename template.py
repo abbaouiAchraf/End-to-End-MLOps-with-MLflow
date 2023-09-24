@@ -21,9 +21,9 @@ list_of_files = [
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/entity/config_entity.py",
     f"src/{project_name}/constants/__init__.py",
-    "config/config.yaml", # YAML is a human-readable data serialization language that is often used for writing configuration files.
+    "config/config.yaml", # YAML is used for writing configuration files. Our case is for artifacts definition (data source ...)
     "params.yaml",
-    "schema.yaml",
+    "schema.yaml", # schema is a YAML file that defines the structure of the data file (Columns, data types, etc.)
     "main.py",
     "app.py",
     "Dockerfile",
