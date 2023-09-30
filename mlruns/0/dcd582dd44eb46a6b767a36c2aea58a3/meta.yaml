@@ -1,0 +1,15 @@
+artifact_uri: file:///f:/work%20env/End-to-End-MLOps-with-MLflow/mlruns/0/dcd582dd44eb46a6b767a36c2aea58a3/artifacts
+end_time: 1696110674584
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dcd582dd44eb46a6b767a36c2aea58a3
+run_name: magnificent-snail-91
+run_uuid: dcd582dd44eb46a6b767a36c2aea58a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696110671353
+status: 3
+tags: []
+user_id: achra

@@ -1,0 +1,15 @@
+artifact_uri: file:///f:/work%20env/End-to-End-MLOps-with-MLflow/mlruns/0/09237c0b37d24a18b78896c15f9b98ab/artifacts
+end_time: 1696109875802
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 09237c0b37d24a18b78896c15f9b98ab
+run_name: selective-wolf-610
+run_uuid: 09237c0b37d24a18b78896c15f9b98ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696109875779
+status: 4
+tags: []
+user_id: achra

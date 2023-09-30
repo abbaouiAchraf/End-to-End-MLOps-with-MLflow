@@ -1,0 +1,15 @@
+artifact_uri: file:///f:/work%20env/End-to-End-MLOps-with-MLflow/mlruns/0/c1462bcd176f468e8596ece60e6bedaa/artifacts
+end_time: 1696110614269
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1462bcd176f468e8596ece60e6bedaa
+run_name: adaptable-fly-242
+run_uuid: c1462bcd176f468e8596ece60e6bedaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696110610200
+status: 3
+tags: []
+user_id: achra
