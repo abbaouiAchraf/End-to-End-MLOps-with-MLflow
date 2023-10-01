@@ -1,4 +1,5 @@
 from MLOpsProject import logger
+import os
 from MLOpsProject.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from MLOpsProject.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from MLOpsProject.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
@@ -47,6 +48,10 @@ except Exception as e:
 
 STAGE_NAME = "Model Evaluation Stage"
 try:
+    os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/abbaouiAchraf/End-to-End-MLOps-with-MLflow.mlflow"
+    os.environ["MLFLOW_TRACKING_USERNAME"] = "abbaouiAchraf"
+    os.environ["MLFLOW_TRACKING_PASSWORD"] = "2c99247e13655e288ba20cde3e91911aa678d25b"
+    
     logger.info(f">>>> Starting {STAGE_NAME} <<<<")
     DataEvaluation = ModelEvaluationPipeline()
     DataEvaluation.main()
