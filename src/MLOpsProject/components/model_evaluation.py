@@ -49,6 +49,6 @@ class ModelEvaluation:
 
             # Model registry does not work with file store
             if tracking_url_type_store != "file":
-                mlflow.sklearn.log_model(model, "model", registered_model_name="RandomTreeClassifier")
+                mlflow.sklearn.log_model(model, "model", registered_model_name="DecisionTreeClassifier")
             else:
                 mlflow.sklearn.log_model(model, "model")
