@@ -1,3 +1,5 @@
-ElasticNet:
-  alpha: 0.01
-  l1_ratio: 0.7
+DecisionTreeClassifier:
+  criterion: "entropy"
+  ccp_alpha: 0.015
+  max_depth: 8
+  random_state: 42 

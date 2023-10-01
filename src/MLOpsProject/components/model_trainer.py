@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 from MLOpsProject import logger
-from sklearn.linear_model import ElasticNet
+from sklearn.tree import DecisionTreeClassifier
 import joblib
 from MLOpsProject.entity.config_entity import ModelTrainerConfig
 
@@ -21,8 +21,9 @@ class ModelTrainer:
         test_y = test_data[[self.config.target_column]]
 
 
-        lr = ElasticNet(alpha=self.config.alpha, l1_ratio=self.config.l1_ratio, random_state=42)
-        lr.fit(train_x, train_y)
+        dtc = DecisionTreeClassifier(criterion = self.config.criterion, ccp_alpha = self.config.ccp_alpha, 
+        max_depth = self.config.max_depth,random_state=self.config.random_state)
+        dtc.fit(train_x, train_y)
 
-        joblib.dump(lr, os.path.join(self.config.root_dir, self.config.model_name))
+        joblib.dump(dtc, os.path.join(self.config.root_dir, self.config.model_name))
 

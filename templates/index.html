@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/predict" method="post">
+      <label>age:</label>
+      <input type="number" name="age" /><br />
+
+      <label>job:</label>
+      <select name="job">
+        <option value="admin">admin</option>
+        <option value="unknown">unknown</option>
+        <option value="unemployed">unemployed</option>
+        <option value="management">management</option>
+        <option value="housemaid">housemaid</option>
+        <option value="entrepreneur">entrepreneur</option>
+        <option value="student">student</option>
+        <option value="blue-collar">blue-collar</option>
+        <option value="self-employed">self-employed</option>
+        <option value="retired">retired</option>
+        <option value="technician">technician</option>
+        <option value="services">services</option></select
+      ><br />
+
+      <label>marital:</label>
+      <select name="marital">
+        <option value="married">married</option>
+        <option value="divorced">divorced</option>
+        <option value="single">single</option></select
+      ><br />
+
+      <label>education:</label>
+      <select name="education">
+        <option value="unknown">unknown</option>
+        <option value="secondary">secondary</option>
+        <option value="primary">primary</option>
+        <option value="tertiary">tertiary</option></select
+      ><br />
+
+      <label>default:</label>
+      <select name="default">
+        <option value="yes">yes</option>
+        <option value="no">no</option></select
+      ><br />
+
+      <label>balance:</label>
+      <input type="number" name="balance" /><br />
+
+      <label>housing:</label>
+      <select name="housing">
+        <option value="yes">yes</option>
+        <option value="no">no</option></select
+      ><br />
+
+      <label>loan:</label>
+      <select name="loan">
+        <option value="yes">yes</option>
+        <option value="no">no</option></select
+      ><br />
+
+      <label>contact:</label>
+      <select name="contact">
+        <option value="unknown">unknown</option>
+        <option value="telephone">telephone</option>
+        <option value="cellular">cellular</option></select
+      ><br />
+
+      <label>day:</label>
+      <input type="number" name="day" /><br />
+
+      <label>month:</label>
+      <select name="month">
+        <option value="jan">jan</option>
+        <option value="feb">feb</option>
+        <option value="mar">mar</option>
+        <option value="apr">apr</option>
+        <option value="may">may</option>
+        <option value="jun">jun</option>
+        <option value="jul">jul</option>
+        <option value="aug">aug</option>
+        <option value="sep">sep</option>
+        <option value="oct">oct</option>
+        <option value="nov">nov</option>
+        <option value="dec">dec</option></select
+      ><br />
+
+      <label>duration:</label>
+      <input type="number" name="duration" /><br />
+
+      <label>campaign:</label>
+      <input type="number" name="campaign" /><br />
+
+      <label>pdays:</label>
+      <input type="number" name="pdays" /><br />
+
+      <label>previous:</label>
+      <input type="number" name="previous" /><br />
+
+      <label>poutcome:</label>
+      <select name="poutcome">
+        <option value="unknown">unknown</option>
+        <option value="other">other</option>
+        <option value="failure">failure</option>
+        <option value="success">success</option></select
+      ><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

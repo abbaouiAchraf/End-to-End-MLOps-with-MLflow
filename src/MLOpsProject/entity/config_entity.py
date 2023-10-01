@@ -29,8 +29,10 @@ class ModelTrainerConfig:
   train_data_path: Path
   test_data_path: Path
   model_name: str
-  alpha: float
-  l1_ratio: float
+  criterion: str
+  ccp_alpha: int
+  max_depth: int
+  random_state: int 
   target_column: str
 
 @dataclass(frozen=True)
